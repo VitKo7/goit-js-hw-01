@@ -8,7 +8,7 @@ let input = prompt('Укажите страну доставки:');
 if (input === null) {
   console.log(`Отменено пользователем!`);
 } else {
-  // ? закоментировал более длинный код:
+  // ? закомментировал более длинный код:
   // let lower = input.toLowerCase();
   // let firstLetter = lower.slice(0, 1);
   // destination = lower.replace(firstLetter, firstLetter.toUpperCase());

@@ -2,7 +2,7 @@
 let input;
 let total = 0;
 
-while (input !== null) {
+do {
   let input = prompt('Введите число:');
 
   if (input === null) {
@@ -19,9 +19,9 @@ while (input !== null) {
   }
 
   total += input;
-}
+} while (true);
 
-alert(`Сумма введенных чисел равна: ${total}`);
+alert(`Сумма введеных чисел равна: ${total}`);
 
 // todo:
 // ? запустить цикл до нажатия Cancel => вывести результат;
