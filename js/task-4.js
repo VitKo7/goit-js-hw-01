@@ -7,7 +7,7 @@ let totalPrice;
 
 let order = prompt('Какое количество дроидов Вы хотите приобрести?');
 
-if (order === null) {
+if (!order) {
   message = `Отменено пользователем!`;
 } else if (order <= 0) {
   message = 'Вы не верно указали количество дроидов';
